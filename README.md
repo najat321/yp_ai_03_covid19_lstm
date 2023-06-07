@@ -1,13 +1,13 @@
 ## a.	Project Title
-... Covid-19 New Cases Prediction
+Covid-19 New Cases Prediction
 ## b.	Project Description
 ### i.	What this project does?
-...This project is to to predict new cases (cases_new) in Malaysia using the past 30 days of number of cases by using using LSTM neural network.
+This project is to to predict new cases (cases_new) in Malaysia using the past 30 days of number of cases by using using LSTM neural network.
 ### ii.	Any challenges that was faced and how I solved them?
-..-There were some challenges in the data cleaning process where there were a high number of missing values in the column of "cases_new","cluster_import", "cluster_religious","cluster_community","cluster_highRisk", "cluster_education", "cluster_detentionCentre","cluster_workplace" in the training dataset. I solved them by imputating the missing values using KNNImputer. 
-..- The data type of the "cases_new" column is an object datatype, so I solved it by converting it to an int64 datatype. 
+- There were some challenges in the data cleaning process where there were a high number of missing values in the column of "cases_new","cluster_import", "cluster_religious","cluster_community","cluster_highRisk", "cluster_education", "cluster_detentionCentre","cluster_workplace" in the training dataset. I solved them by imputating the missing values using KNNImputer. 
+- The data type of the "cases_new" column is an object datatype, so I solved it by converting it to an int64 datatype. 
 ### iii.	Some challenges / features you hope to implement?
-...I hope to implement features in the feature engineering process. Apart from the raw time series data, additional features can be created based on domain knowledge or patterns observed in the data. For example, you could derive lagged features, moving averages, or statistical measures such as mean, variance, or trend features. These additional features can provide valuable information to the LSTM model and potentially improve its performance.
+I hope to implement features in the feature engineering process. Apart from the raw time series data, additional features can be created based on domain knowledge or patterns observed in the data. For example, you could derive lagged features, moving averages, or statistical measures such as mean, variance, or trend features. These additional features can provide valuable information to the LSTM model and potentially improve its performance.
 ## c.	How to install and run the project 
 Here's a step-by-step guide on how to install and run this project:
 
