@@ -16,15 +16,20 @@ Here's a step-by-step guide on how to install and run this project:
 2. Clone the repository: Go to the GitHub repository where your .py file is located. Click on the "Code" button and select "Download ZIP" to download the project as a ZIP file. Extract the contents of the ZIP file to a location on your computer.
 
 3. Set up a virtual environment (optional): It is recommended to set up a virtual environment to keep the project dependencies isolated. Open a terminal or command prompt, navigate to the project directory, and create a virtual environment by running the following command: python -m venv myenv
-Then, activate the virtual environment:
-If you're using Windows: myenv\Scripts\activate
-If you're using Windows macOS/Linux: source myenv/bin/activate
+
+   Then, activate the virtual environment:
+
+   If you're using Windows: myenv\Scripts\activate
+
+   If you're using macOS/Linux: source myenv/bin/activate
 
 4. Install dependencies: In the terminal or command prompt, navigate to the project directory (where the requirements.txt file is located). Install the project dependencies by running the following command: pip install -r requirements.txt
-This will install all the necessary libraries and packages required by the project.
+
+   This will install all the necessary libraries and packages required by the project.
 
 5. Run the .py file: Once the dependencies are installed, you can run the .py file from the command line. In the terminal or command prompt, navigate to the project directory and run the following command: python your_file.py
-Now, you're done! The project should now run, and you should see the output or any other specified behavior defined in your .py file.
+
+   Now, you're done! The project should now run, and you should see the output or any other specified behavior defined in your .py file.
 
 ## d.	Output of this project
 i. ![Alt Text](https://raw.githubusercontent.com/najat321/yp_ai_03_covid19_lstm/main/Matplotlib%20graph%20actual%20case%20vs%20predicted%20case.png?token=GHSAT0AAAAAACDTAPC3CUQPYRTSXM66KVJSZEAJU2Q)
