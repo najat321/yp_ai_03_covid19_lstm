@@ -1,11 +1,11 @@
 ## a.	Project Title
 ... Covid-19 New Cases Prediction
 ## b.	Project Description
-### i.	What your project does?
+### i.	What this project does?
 ...This project is to to predict new cases (cases_new) in Malaysia using the past 30 days of number of cases by using using LSTM neural network.
-### ii.	Any challenges you face and how you solve them?
-..*There were some challenges in the data cleaning process where there were a high number of missing values in the column of "cases_new","cluster_import", "cluster_religious","cluster_community","cluster_highRisk", "cluster_education", "cluster_detentionCentre","cluster_workplace" in the training dataset. I solved them by imputating the missing values using KNNImputer. 
-..*The data type of the "cases_new" column is an object datatype, so I solved it by converting it to an int64 datatype. 
+### ii.	Any challenges that was faced and how I solved them?
+..-There were some challenges in the data cleaning process where there were a high number of missing values in the column of "cases_new","cluster_import", "cluster_religious","cluster_community","cluster_highRisk", "cluster_education", "cluster_detentionCentre","cluster_workplace" in the training dataset. I solved them by imputating the missing values using KNNImputer. 
+..- The data type of the "cases_new" column is an object datatype, so I solved it by converting it to an int64 datatype. 
 ### iii.	Some challenges / features you hope to implement?
 ...I hope to implement features in the feature engineering process. Apart from the raw time series data, additional features can be created based on domain knowledge or patterns observed in the data. For example, you could derive lagged features, moving averages, or statistical measures such as mean, variance, or trend features. These additional features can provide valuable information to the LSTM model and potentially improve its performance.
 ## c.	How to install and run the project 
@@ -26,9 +26,8 @@ This will install all the necessary libraries and packages required by the proje
 5. Run the .py file: Once the dependencies are installed, you can run the .py file from the command line. In the terminal or command prompt, navigate to the project directory and run the following command: python your_file.py
 Now, you're done! The project should now run, and you should see the output or any other specified behavior defined in your .py file.
 
-## d.	Output of your project
-i.	
-e.	Include credits
-i.	Source of datasets : 
+## d.	Output of this project
+i. ![Alt Text](https://raw.githubusercontent.com/najat321/yp_ai_03_covid19_lstm/main/Matplotlib%20graph%20actual%20case%20vs%20predicted%20case.png?token=GHSAT0AAAAAACDTAPC3CUQPYRTSXM66KVJSZEAJU2Q)
+## e.	Source of datasets : 
 [https://github.com/MoH-Malaysia/covid19-public](https://github.com/MoH-Malaysia/covid19-public)
 
